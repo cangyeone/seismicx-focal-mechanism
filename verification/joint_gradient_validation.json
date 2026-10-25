@@ -1,0 +1,49 @@
+{
+  "status": "pass",
+  "complete_CAP_plus_polarity_objective": true,
+  "records": [
+    {
+      "parameter": "strike",
+      "autograd": -0.0027004640590727663,
+      "central_difference": -0.0027004640571481886,
+      "relative_error": 7.126840582283844e-10
+    },
+    {
+      "parameter": "dip",
+      "autograd": 0.004574397444598661,
+      "central_difference": 0.004574397438089628,
+      "relative_error": 1.4229268389638592e-09
+    },
+    {
+      "parameter": "rake",
+      "autograd": 0.002968091754560197,
+      "central_difference": 0.0029680917561919484,
+      "relative_error": 5.49764537461255e-10
+    },
+    {
+      "parameter": "log_amplitude",
+      "autograd": -0.0476750542799973,
+      "central_difference": -0.04767505419889239,
+      "relative_error": 1.701202205998519e-09
+    },
+    {
+      "parameter": "Pnl_shift",
+      "autograd": 0.08441213763580832,
+      "central_difference": 0.08441213765475464,
+      "relative_error": 2.2445014738522168e-10
+    },
+    {
+      "parameter": "Rayleigh_shift",
+      "autograd": 0.2050509349387364,
+      "central_difference": 0.2050509349399432,
+      "relative_error": 5.8852922204201674e-12
+    },
+    {
+      "parameter": "Love_shift",
+      "autograd": 0.005279431631356412,
+      "central_difference": 0.005279431641858068,
+      "relative_error": 1.9891641147845836e-09
+    }
+  ],
+  "geometry": "fixed source depth and station locations; source-depth interpolation not claimed exact"
+}

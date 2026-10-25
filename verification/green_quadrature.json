@@ -1,0 +1,22 @@
+{
+  "case": "iasp91 flat layers; 10 km depth; 50\u2013280 km; 1024 x .25 s; all NED components",
+  "original_grid": {
+    "period_length": 6376.99818088654,
+    "minimum_steps": 671,
+    "maximum_steps": 4724
+  },
+  "refinements": [
+    {
+      "refinement": "spacing",
+      "body_relative_l2": 0.00017238084347860478,
+      "surface_relative_l2": 0.00042102257031695133
+    },
+    {
+      "refinement": "cutoff",
+      "body_relative_l2": 0.008459455084545096,
+      "surface_relative_l2": 0.01853584232303505
+    }
+  ],
+  "acceptance_relative_l2": 0.02,
+  "status": "pass"
+}

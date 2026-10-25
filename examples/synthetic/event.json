@@ -1,0 +1,76 @@
+{
+  "event": {
+    "id": "synthetic_GRTM_recovery",
+    "depth_km": 10.0
+  },
+  "earth_model": "iasp91",
+  "waveform": {
+    "file": "observations.npz",
+    "quantity": "displacement_m",
+    "coordinates": "NEZ",
+    "dt_s": 0.25,
+    "t0_s": 0
+  },
+  "stations": [
+    {
+      "id": "SYN01",
+      "distance_km": 50.0,
+      "azimuth_deg": 10.0,
+      "probability_u": 0.5861827954473288
+    },
+    {
+      "id": "SYN02",
+      "distance_km": 70.0,
+      "azimuth_deg": 55.0,
+      "probability_u": 0.9503950675776509
+    },
+    {
+      "id": "SYN03",
+      "distance_km": 90.0,
+      "azimuth_deg": 100.0,
+      "probability_u": 0.9999143276838082
+    },
+    {
+      "id": "SYN04",
+      "distance_km": 120.0,
+      "azimuth_deg": 145.0,
+      "probability_u": 0.9989011183947354
+    },
+    {
+      "id": "SYN05",
+      "distance_km": 150.0,
+      "azimuth_deg": 190.0,
+      "probability_u": 0.11563874420948839
+    },
+    {
+      "id": "SYN06",
+      "distance_km": 180.0,
+      "azimuth_deg": 235.0,
+      "probability_u": 0.1847948305763005
+    },
+    {
+      "id": "SYN07",
+      "distance_km": 220.0,
+      "azimuth_deg": 280.0,
+      "probability_u": 0.5371163582071659
+    },
+    {
+      "id": "SYN08",
+      "distance_km": 280.0,
+      "azimuth_deg": 325.0,
+      "probability_u": 0.03239930245208339
+    }
+  ],
+  "source_duration_s": 1.0,
+  "synthetic_samples": 1024,
+  "depth_grid_km": [
+    8.0,
+    10.0,
+    12.0
+  ],
+  "cap": {
+    "starts": 48,
+    "steps": 1000,
+    "surface_padding_s": 8.0
+  }
+}

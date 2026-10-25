@@ -1,0 +1,298 @@
+{
+  "mode": "cap_polarity",
+  "moment_tensor_Nm": [
+    73393772705151.34,
+    1091616382940051.9,
+    -1165010155645203.2,
+    -434651379534133.06,
+    -344575984121668.94,
+    9545979423456.453
+  ],
+  "nodal_planes": [
+    {
+      "strike": 185.4836803238318,
+      "dip": 43.957078502865954,
+      "rake": -112.17749344100062
+    },
+    {
+      "strike": 35.00520642859122,
+      "dip": 50.00149532129037,
+      "rake": -69.99954249060019
+    }
+  ],
+  "scalar_moment_Nm": 1258918732227475.2,
+  "moment_magnitude": 3.9999984638186263,
+  "objective": 0.03891910167554194,
+  "waveform_normalized_squared_residual": 5.131777871903732e-06,
+  "variance_reduction": 0.9999948682221281,
+  "polarity_loss": 0.1945698493917488,
+  "polarity_mismatches": 0,
+  "polarity_stations": 8,
+  "segment_order": [
+    "Pnl_D",
+    "Pnl_R",
+    "Rayleigh_D",
+    "Rayleigh_R",
+    "Love_T"
+  ],
+  "valid_segments": [
+    [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "shifts_s": [
+    [
+      4.711810819089917e-05,
+      0.00010277020810000052,
+      0.0
+    ],
+    [
+      0.00011598966024590124,
+      -0.00027231678708495823,
+      -4.4746995109754474e-05
+    ],
+    [
+      -5.5992184033607596e-05,
+      0.0003240589725123825,
+      0.0010695823263246775
+    ],
+    [
+      1.7305449160739555e-05,
+      -3.6298761124739805e-06,
+      0.0006979856089213904
+    ],
+    [
+      5.107807226232511e-05,
+      -0.0006224821201306174,
+      -0.0016152030054220731
+    ],
+    [
+      0.000527920904724184,
+      -0.00045135057880237684,
+      0.0005547601256805858
+    ],
+    [
+      -0.0001702488804806623,
+      0.0002462251810189985,
+      -0.0010033505703772939
+    ],
+    [
+      -0.0005554019372663377,
+      0.0005011961987123644,
+      0.0009778231099305274
+    ]
+  ],
+  "shift_sign": "Synthetic is sampled at t+shift to match observed(t)",
+  "multistart": 48,
+  "optimization_history": [
+    {
+      "step": 1,
+      "best_objective": 0.41629961167449464
+    },
+    {
+      "step": 101,
+      "best_objective": 0.038927166219863654
+    },
+    {
+      "step": 201,
+      "best_objective": 0.03891910874941694
+    },
+    {
+      "step": 301,
+      "best_objective": 0.03891910167554146
+    },
+    {
+      "step": 401,
+      "best_objective": 0.03891910167553578
+    },
+    {
+      "step": 501,
+      "best_objective": 0.03891910167553577
+    },
+    {
+      "step": 601,
+      "best_objective": 0.03891910167553579
+    },
+    {
+      "step": 701,
+      "best_objective": 0.03891910167553577
+    },
+    {
+      "step": 801,
+      "best_objective": 0.03891910167556861
+    },
+    {
+      "step": 901,
+      "best_objective": 0.03891910167553608
+    },
+    {
+      "step": 1000,
+      "best_objective": 0.0389191016755483
+    }
+  ],
+  "coordinates": "NED",
+  "moment_order": [
+    "NN",
+    "EE",
+    "DD",
+    "NE",
+    "ND",
+    "ED"
+  ],
+  "depth_method": "fixed physical GRTM bank at each configured depth; optional outer depth grid",
+  "window_reference_depth_km": 10.0,
+  "event_id": "synthetic_GRTM_recovery",
+  "earth_model": "iasp91",
+  "depth_km": 10.0,
+  "station_ids": [
+    "SYN01",
+    "SYN02",
+    "SYN03",
+    "SYN04",
+    "SYN05",
+    "SYN06",
+    "SYN07",
+    "SYN08"
+  ],
+  "travel_time_engine": "DNN; TauP not imported at runtime",
+  "polarity_ray_phases": [
+    "P_first",
+    "P_first",
+    "P_first",
+    "P_first",
+    "P_first",
+    "P_first",
+    "P_first",
+    "P_first"
+  ],
+  "azimuth_deg": [
+    10.0,
+    55.0,
+    100.0,
+    145.0,
+    190.0,
+    235.0,
+    280.0,
+    325.0
+  ],
+  "distance_km": [
+    50.0,
+    70.0,
+    90.0,
+    120.0,
+    150.0,
+    180.0,
+    220.0,
+    280.0
+  ],
+  "takeoff_angle_deg": [
+    101.83500671386719,
+    97.20619201660156,
+    95.06187438964844,
+    82.10440063476562,
+    45.5679931640625,
+    46.20680236816406,
+    46.58203887939453,
+    45.98497772216797
+  ],
+  "takeoff_gradient_valid": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "probability_u": [
+    0.5861827954473288,
+    0.9503950675776509,
+    0.9999143276838082,
+    0.9989011183947354,
+    0.11563874420948839,
+    0.1847948305763005,
+    0.5371163582071659,
+    0.03239930245208339
+  ],
+  "polarity_input_valid": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "first_p_angle_caveat": "Smooth first-arrival fields can have large angle errors at ray-branch switches; valid is not an accuracy certificate.",
+  "polarity_mismatch_fraction": 0.0,
+  "azimuthal_gap_deg": 45.0,
+  "depth_candidates": [
+    {
+      "depth_km": 8.0,
+      "objective": 0.10549190686152234
+    },
+    {
+      "depth_km": 10.0,
+      "objective": 0.03891910167554194
+    },
+    {
+      "depth_km": 12.0,
+      "objective": 0.09613744412338815
+    }
+  ]
+}

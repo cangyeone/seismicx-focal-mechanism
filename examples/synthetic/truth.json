@@ -1,0 +1,17 @@
+{
+  "strike": 35.0,
+  "dip": 50.0,
+  "rake": -70.0,
+  "moment_magnitude": 4.0,
+  "depth_km": 10.0,
+  "description": "Synthetic physical GRTM waveforms; 0.5% global RMS Gaussian noise; neural-ray soft polarity targets, not CNN predictions.",
+  "moment_tensor_Nm": [
+    73333406782973.81,
+    1091697040258283.5,
+    -1165030447041257.2,
+    -434572727877395.94,
+    -344544484570680.8,
+    9526562974682.602
+  ],
+  "noise_global_rms_fraction": 0.005
+}

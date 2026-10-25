@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seismicx-focal-mechanism"
+version = "0.1.0"
+description = "Neural travel times and joint CAP/first-motion focal-mechanism inversion"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy", "torch>=2.4", "scipy", "matplotlib", "seismicx-grtm>=0.6.0.dev10"]
+
+[project.scripts]
+seismic-joint = "seismic_joint.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["seismic_joint*"]

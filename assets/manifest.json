@@ -1,0 +1,46 @@
+{
+  "files": {
+    "assets/body_travel.pt": {
+      "bytes": 1327825,
+      "sha256": "408746304a8e345bc9b652b18e638a76b9a6585ff69668102f4a80879e0ba974"
+    },
+    "assets/body_travel_expert.pt": {
+      "bytes": 42403409,
+      "sha256": "baffe1265c699d9f9d5f8fb649a7991aec871a24ce551077885fb0e16c3fcaac"
+    },
+    "assets/earth/ak135.json": {
+      "bytes": 5880,
+      "sha256": "4366c54d27d7434d391123bb45d6bfdc09784f5bc7eabf5ee5d2f6febbacdc21"
+    },
+    "assets/earth/iasp91.json": {
+      "bytes": 5882,
+      "sha256": "2a1ea93e1baf20ed58bbca8c439076f8e317b3c68f55d0f3755902d89eeea5a9"
+    },
+    "assets/earth/prem.json": {
+      "bytes": 6565,
+      "sha256": "be35f077085ce527065a2f78eaa376a9f12515989007e1845a0529c10b78424b"
+    },
+    "assets/first_p/ak135.pt": {
+      "bytes": 622225,
+      "sha256": "1490cd32103e446a0a96a6ba780744bb741e303200679462254d0b2b1d73bad1"
+    },
+    "assets/first_p/iasp91.pt": {
+      "bytes": 622245,
+      "sha256": "e09005aee43a6c8371bd14fdf08f3bd8246fde9ae7abf2cc83242e217af84cf5"
+    },
+    "assets/first_p/prem.pt": {
+      "bytes": 621501,
+      "sha256": "f193dd36ad937642e9d5a4858a4561532f749608bf7b05369918b0900d503fd9"
+    },
+    "assets/polarity_raw.jit": {
+      "bytes": 3839724,
+      "sha256": "a76adf63a015890d32a2b2fb8fe247ccc09269779c0a0e908a443a4b063f9f21"
+    },
+    "assets/surface_velocity.pt": {
+      "bytes": 210337,
+      "sha256": "86d8131e6d513af26999b208292f5aa0806f1277cd0356cbfb43273b47ac9bf1"
+    }
+  },
+  "reference": "verification/final_audit.json",
+  "scope": "Private application weights and fixed velocity-model definitions"
+}
