@@ -304,7 +304,13 @@ Run the body stages in order. `data/` is generated locally and is not tracked. `
 | CUDA out of memory | Reduce `cap.starts` and window count; keep a physically adequate synthetic duration |
 | Different mechanism angles | Compare both nodal planes or normalized tensors before assuming disagreement |
 
-## 8. Licence and provenance
+## 8. Developers
+
+- **Yuqi Cai** — [caiyuqiming@foxmail.com](mailto:caiyuqiming@foxmail.com)
+- **Xin Liu** — [xinliu_geo@outlook.com](mailto:xinliu_geo@outlook.com)
+- **Ziye Yu** — [yuziye@cea-igp.ac.cn](mailto:yuziye@cea-igp.ac.cn)
+
+## 9. Licence and provenance
 
 This is a **private research project**, not a public open-source release. Existing research/noncommercial restrictions and third-party rights remain in [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md). An authorized private repository upload is not a public redistribution grant. GRTM solver binaries are installed separately under their own terms.
 

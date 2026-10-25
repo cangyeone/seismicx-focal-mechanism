@@ -307,7 +307,13 @@ python scripts/train_surface.py --device cuda:1
 | CUDA 显存不足 | 减小 `cap.starts`、采样数，仍须保留足够的物理合成时长 |
 | 节面角度看起来不同 | 先比较两个等价节面或归一化矩张量 |
 
-## 8. 许可证与来源
+## 8. 开发者
+
+- **Yuqi Cai** — [caiyuqiming@foxmail.com](mailto:caiyuqiming@foxmail.com)
+- **Xin Liu** — [xinliu_geo@outlook.com](mailto:xinliu_geo@outlook.com)
+- **Ziye Yu** — [yuziye@cea-igp.ac.cn](mailto:yuziye@cea-igp.ac.cn)
+
+## 9. 许可证与来源
 
 本项目是**私有科研项目**，不是公开开源发布。既有科研/非商业限制和第三方权利见 [LICENSE](LICENSE)、[NOTICE.md](NOTICE.md)。用户授权上传私有仓库不等于授权公开再分发。GRTM 二进制作为外部依赖遵守其独立条款。
 
